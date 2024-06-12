@@ -1,0 +1,47 @@
+.btnlogin {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #f4c2d0;
+    border: none;
+    color:#ED648B;
+    font-size: 40px;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    margin-left: 50px;
+    width: 370px;
+    height: 70px;
+    border-radius: 40px;
+    padding: 0;
+    cursor: pointer;
+    transition: none;
+}
+
+.btnlogin:active {
+    transform: translateY(-50%);
+}
+
+.btnlogin:focus {
+    outline: none;
+}
+
+.h1 {
+    position: absolute;
+    top: 33%;
+    left: 0;
+    transform: translateY(-50%);
+    font-weight: bold;
+    margin-left: 40px;
+    color: #ED648B;
+    text-shadow: 2px 2px 2px #f4c2d0;
+    z-index: 1;
+}
+
+.img {
+    width: 63%;
+    height: 83%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);    
+}

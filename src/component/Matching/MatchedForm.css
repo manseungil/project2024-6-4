@@ -1,0 +1,104 @@
+.matchedimg {
+    width: 38%;
+    height: 60%;
+    position: absolute;
+    top: 30%;
+    left: 1%;
+}
+  
+.matchedP {
+    font-size: 80px;
+    font-weight: bold;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color : #ED648B;
+    text-shadow: 5px 5px 5px #f4c2d0;
+}
+  
+.clickbtn {
+    background-color: rgb(117, 240, 117);
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 35%;
+    right: 6%;
+    padding: 0;
+}
+
+.cancelbtn {
+    background-color: rgb(240, 117, 117);
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    bottom: 28%;
+    right: 6%;
+    padding: 0;
+}
+
+.matchingbtn:active {
+    transform: translate(-50%, -50%);
+}
+  
+.matchingbtn:focus {
+    outline: none;
+}
+ 
+.correction {
+    position: absolute;
+    top: 7%;
+    right: 32%;
+    width: 68px;
+    height: 32px;
+    font-size: 18px;
+    background-color: #fff;
+    color:#ED648B;
+    font-weight: bold;
+    border-radius: 15px;
+    border: #ED648B solid 2px;
+    padding: 0;
+}
+
+.info{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 13%;
+    left: 37%;
+    border: 3px solid rgb(228, 116, 116);
+    font-size: 20px;
+    font-weight: bold;
+    width: 33%;
+    height: 65%;
+    display: flex;
+    flex-direction: column; /* 자식 요소들을 세로로 배치 */
+    justify-content: flex-start; /* 자식 요소들을 위쪽에 배치 */
+    padding: 20px;
+    box-sizing: border-box; /* 패딩 포함하여 크기 조정 */
+}
+    
+.infoP {
+    font-size: 33px;
+    font-weight: bold;
+    display: block; /* block 요소로 변경 */
+    margin-bottom: 25px; /* 하단 여백 추가 */
+}
+    
+.infoLabel {
+    display: block; /* 각 라벨을 블록 요소로 변경 */
+    margin-bottom: 20px; /* 각 라벨의 하단 여백 추가 */
+    margin-left: 15px;
+    font-size: 28px; /* 기본 폰트 크기 조정 */
+    color: #333; /* 텍스트 색상 */
+}

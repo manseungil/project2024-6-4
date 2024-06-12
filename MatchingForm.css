@@ -1,0 +1,117 @@
+.matchingimg {
+  width: 35%;
+  height: 60%;
+  position: absolute;
+  top: 57%;
+  right: 43%;
+  transform: translate(-50%, -50%);
+}
+
+.matchingimg2 {
+    width: 37%;
+    height: 60%;
+    position: absolute;
+    top: 57%;
+    right: -16%;
+    transform: translate(-50%, -50%);
+}
+
+.matchingimgP {
+    font-size: 80px;
+    font-weight: bold;
+    position: absolute;
+    top: 9%;
+    left: 15%;
+    color : #ED648B;
+    text-shadow: 5px 5px 5px #f4c2d0;
+}
+
+.matchingbtn {
+    position: absolute;
+    top: 14%;
+    left: 36.5%;
+    width: 95px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #fff;
+    color:#ED648B;
+    font-weight: bold;
+    border-radius: 15px;
+    border: #ED648B solid 2px;
+    padding: 0;
+}
+.matchingbtn:active {
+    transform: translate(-50%, -50%);
+}
+
+.matchingbtn:focus {
+    outline: none;
+}
+
+.correction {
+  position: absolute;
+  top: 7%;
+  right: 32%;
+  width: 68px;
+  height: 32px;
+  font-size: 18px;
+  background-color: #fff;
+  color:#ED648B;
+  font-weight: bold;
+  border-radius: 15px;
+  border: #ED648B solid 2px;
+  padding: 0;
+}
+
+.userid {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 8%;
+    left: 3%;
+}
+
+.userinfo{
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  position: absolute;
+  bottom: 10%;
+  right: 6%;
+  border: 3px solid rgb(228, 116, 116);
+  font-size: 20px;
+  font-weight: bold;
+  width: 40%;
+  height: 65%;
+  display: flex;
+  flex-direction: column; /* 자식 요소들을 세로로 배치 */
+  justify-content: flex-start; /* 자식 요소들을 위쪽에 배치 */
+  padding: 20px;
+  box-sizing: border-box; /* 패딩 포함하여 크기 조정 */
+}
+  
+  .userinfoP {
+    font-size: 40px;
+    font-weight: bold;
+    display: block; /* block 요소로 변경 */
+    margin-bottom: 20px; /* 하단 여백 추가 */
+  }
+  
+  .userinfoLabel {
+    display: block; /* 각 라벨을 블록 요소로 변경 */
+    margin-bottom: 27px; /* 각 라벨의 하단 여백 추가 */
+    margin-left: 15px;
+    font-size: 30px; /* 기본 폰트 크기 조정 */
+    color: #333; /* 텍스트 색상 */
+  }
+
+  
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-size: 220px;
+    z-index: 1;
+  }
